@@ -1,0 +1,18 @@
+
+import java.util.Scanner;
+
+public class powerRangers {
+
+    public static void main(String[] args) {
+        Scanner userInput = new Scanner(System.in);
+        System.out.print("Enter n value: ");
+        int n = userInput.nextInt();
+
+        System.out.println("n\tn^2\tn^3\tn^4");
+
+        for (int i = 1; i <= n; i++) {
+            System.out.print((Math.pow(i, 1)) + "\t" + (Math.pow(i, 2)) + "\t" + (Math.pow(i, 3)) + "\t" + (Math.pow(i, 4)));
+            System.out.println();
+        }
+    }
+}
